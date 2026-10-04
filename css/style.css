@@ -1,0 +1,89 @@
+
+@font-face{
+    src: url(fonts/pt-mono.ttf);
+    font-family: pt-mono-ttf;
+}
+
+@media (prefers-color-scheme: dark) {
+    a{
+        color: rgb(215, 104, 39);
+    }
+    button{
+        color: rgb(215, 104, 39);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    a{
+        color: rgb(255, 140, 0);
+    }
+    button{
+        color: rgb(255, 140, 0);
+    }
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+}
+
+html {
+    color-scheme: light dark;
+}
+
+header, main, div{
+    text-align: center;
+}
+
+article{
+    font-family: 'pt-mono-ttf';
+    font-size: 1rem;
+    text-wrap: pretty wrap;
+    width: 70ch;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-size: -1rem;
+}
+
+.menubarsoicals ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mynavbar ul{
+    list-style-type: none;
+    background-color: rgb(109, 115, 168);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.mynavbar a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+
+.mynavbar a:hover{
+    background-color: rgb(138, 146, 222);
+}
+
+.mynavbar li{
+    float: left;
+
+}
+
+
